@@ -1,0 +1,307 @@
+@import url(/css/bootstrap.min.css);
+@import url(http://fonts.googleapis.com/css?family=Roboto+Slab:400,700);
+body {
+  padding: 0;
+  margin: 0;
+  font: 14px "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  background-color: #f2ebe4; }
+
+a:link {
+  color: #df5343;
+  text-decoration: none; }
+
+.terms-container {
+  color: #333;
+  line-height: 1.5em; }
+  .terms-container p {
+    text-indent: 1em; }
+  .terms-container p.updated {
+    color: #c7984a;
+    text-align: right; }
+  .terms-container hr {
+    border: 0;
+    border-bottom: 1px solid #ccc; }
+  .terms-container li {
+    margin-bottom: 1em; }
+
+#page {
+  margin: 0;
+  padding-left: 0;
+  padding-right: 0;
+  background-color: #2a2e3a; }
+
+.navbar-capso {
+  background-color: #1D1F26;
+  border-bottom: 1px solid #df5343;
+  margin-bottom: 0;
+  border-radius: 0; }
+  .navbar-capso .capso-brand:link, .navbar-capso .capso-brand:hover, .navbar-capso .capso-brand:visited {
+    font-family: "Roboto Slab";
+    font-size: 28px;
+    line-height: 48px;
+    color: #c7984a;
+    position: absolute;
+    width: 100%;
+    left: 0;
+    top: 0;
+    text-align: center;
+    margin: auto;
+    padding: 0; }
+  .navbar-capso button {
+    border: 0; }
+    .navbar-capso button.navbar-toggle:focus, .navbar-capso button.navbar-toggle:hover {
+      background-color: #2a2e3a; }
+
+.footer {
+  width: 100%;
+  overflow: hidden;
+  min-height: 60px;
+  background-color: #20232b; }
+  .footer .links {
+    text-align: center;
+    font-size: 13px; }
+    .footer .links span.split {
+      padding: 0 10px; }
+    .footer .links a.terms-link:link, .footer .links a.terms-link:visited {
+      color: #666; }
+    .footer .links a.terms-link:hover {
+      color: white; }
+  .footer hr {
+    width: 96%;
+    border: 0;
+    border-bottom: 1px solid #333; }
+  .footer .copyright {
+    color: #555;
+    text-align: center;
+    font-size: 13px;
+    line-height: 2em;
+    padding: 0;
+    margin-bottom: 1em; }
+
+.section {
+  width: 100%;
+  height: auto;
+  position: relative;
+  overflow: hidden; }
+  .section .section-header {
+    text-align: center;
+    width: 100%;
+    padding: 10px 0; }
+    .section .section-header h1.title {
+      color: #c7984a;
+      font: 1.7em bold "Roboto Slab";
+      line-height: 1.5em;
+      margin: 0; }
+  .section .content {
+    width: 100%;
+    max-width: 960px;
+    margin: 0px auto; }
+
+.fp-table {
+  display: table;
+  table-layout: fixed;
+  width: 100%; }
+  .fp-table .fp-table-cell {
+    display: table-cell;
+    vertical-align: middle;
+    width: 100%;
+    height: 100%; }
+
+#section0 {
+  position: relative;
+  height: 650px;
+  background-color: #2a2e3a;
+  text-align: center;
+  background: url(/images/section0-bg.png) no-repeat center;
+  background-size: auto 620px; }
+  #section0 .iphone {
+    position: relative;
+    width: 100%;
+    height: 500px;
+    margin-top: 30px;
+    background-color: #ccc;
+    background: url(/images/section0-iphone.png) no-repeat center;
+    background-size: auto 500px; }
+  #section0 .download-appstore > img {
+    margin-top: 10px;
+    width: 180px; }
+
+#section1 {
+  background-color: #f2ebe4;
+  text-align: center;
+  height: 740px;
+  overflow: hidden; }
+  #section1 .section-header {
+    background-color: rgba(255, 255, 255, 0.3); }
+  #section1 article {
+    max-width: 900px;
+    margin: 0 auto;
+    box-sizing: border-box; }
+    #section1 article .app-icon {
+      width: 85px;
+      margin-top: 30px; }
+    #section1 article p {
+      font-size: 1.3em; }
+      #section1 article p.description {
+        font-weight: bold;
+        margin: 30px 0; }
+      #section1 article p.content {
+        width: 95%;
+        color: #666; }
+  #section1 .iphones {
+    width: 100%;
+    height: 400px;
+    margin-top: 35px;
+    background: url(/images/section1-iphones.png) no-repeat center 0;
+    background-size: auto 400px; }
+
+#section2 {
+  min-height: 750px; }
+
+#section3 {
+  min-height: 700px; }
+
+#section2, #section3 {
+  background-color: #2a2e3a;
+  overflow: hidden; }
+  #section2 .gradient, #section3 .gradient {
+    position: absolute;
+    width: 100%;
+    height: 150px;
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#000000+0,000000+100&amp;0.65+0,0+100;Neutral+Density */
+    background: -moz-linear-gradient(top, rgba(0, 0, 0, 0.1) 0%, transparent 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(0, 0, 0, 0.1)), color-stop(100%, transparent));
+    background: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.1) 0%, transparent 100%);
+    background: -o-linear-gradient(top, rgba(0, 0, 0, 0.1) 0%, transparent 100%);
+    background: -ms-linear-gradient(top, rgba(0, 0, 0, 0.1) 0%, transparent 100%);
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.1) 0%, transparent 100%); }
+  #section2 .section-header, #section3 .section-header {
+    background-color: rgba(0, 0, 0, 0.7); }
+    #section2 .section-header h1.title, #section3 .section-header h1.title {
+      font-size: 1.3em; }
+  #section2 hr, #section3 hr {
+    width: 100%;
+    border: 0;
+    border-bottom: 1px solid #df5343; }
+  #section2 .row.info, #section3 .row.info {
+    max-width: 930px;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 60px;
+    padding: 0; }
+  #section2 .sub-title, #section3 .sub-title {
+    color: #c7984a;
+    font-size: 1em;
+    line-height: 1.2em;
+    margin: 0;
+    margin-top: 50px; }
+  #section2 .creator-description, #section3 .creator-description {
+    color: #999;
+    line-height: 1.5em; }
+  #section2 .title, #section3 .title {
+    color: #c7984a;
+    line-height: 1.8em;
+    margin: 0;
+    font-size: 32px; }
+  #section2 .features, #section3 .features {
+    list-style: none;
+    padding-left: 0;
+    margin-top: 50px; }
+    #section2 .features li, #section3 .features li {
+      line-height: 1.3em;
+      margin-bottom: 20px;
+      color: #eee; }
+      #section2 .features li .subject, #section3 .features li .subject {
+        color: white;
+        padding: 7px 20px;
+        background-color: #4C4A49;
+        border: 1px solid #c7984a;
+        line-height: 3.5em;
+        border-radius: 25px; }
+      #section2 .features li .description, #section3 .features li .description {
+        font-size: 0.8em; }
+  #section2 .icon, #section3 .icon {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    margin-top: 40px;
+    right: 10px; }
+  #section2 .icon-creator, #section3 .icon-creator {
+    background: url(/images/icon-creator.png) no-repeat center;
+    background-size: 90px; }
+  #section2 .icon-explorer, #section3 .icon-explorer {
+    background: url(/images/icon-explorer.png) no-repeat center;
+    background-size: 90px; }
+
+#section4 {
+  background-color: #f2ebe4;
+  height: auto; }
+  #section4 .section-header {
+    background-color: rgba(255, 255, 255, 0.3); }
+  #section4 .links {
+    width: 70%;
+    margin: 0 auto; }
+  #section4 .link {
+    display: block;
+    overflow: hidden;
+    text-align: center;
+    width: 100%;
+    height: auto;
+    margin-top: 70px;
+    margin-bottom: 70px; }
+    #section4 .link .title {
+      line-height: 1.5em;
+      color: #c7984a; }
+    #section4 .link .icon {
+      display: block;
+      margin: 0 auto;
+      width: 50px;
+      height: 50px;
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: 50px; }
+    #section4 .link .icon-email {
+      background-image: url(/images/icon-email.svg); }
+    #section4 .link .icon-facebook {
+      background-image: url(/images/icon-facebook.svg); }
+    #section4 .link .icon-press-kit {
+      background-image: url(/images/icon-press-kit.svg); }
+    #section4 .link:hover .title {
+      color: #2a2e3a; }
+    #section4 .link:hover .icon-email {
+      background-image: url(/images/icon-email-active.svg); }
+    #section4 .link:hover .icon-facebook {
+      background-image: url(/images/icon-facebook-active.svg); }
+    #section4 .link:hover .icon-press-kit {
+      background-image: url(/images/icon-press-kit-active.svg); }
+
+#section5 {
+  background-color: #20232b;
+  height: auto;
+  text-align: center;
+  padding: 70px 0 50px 0; }
+  #section5 .app-icon {
+    width: 42px;
+    margin-right: 10px; }
+  #section5 p.description {
+    color: #c7984a; }
+  #section5 .download-appstore > img {
+    width: 138px; }
+
+.iphone-photo {
+  background: url(/images/iphone-golden.png) no-repeat center;
+  width: 100%;
+  height: 600px;
+  background-size: auto 100%; }
+
+.iphone-photo2 {
+  background: url(/images/iphone-white.png) no-repeat;
+  width: 100%;
+  max-width: 380px;
+  min-height: 640px;
+  background-size: 100%;
+  margin-top: 80px; }
+  @media only screen and (min-width: 1824px) {
+    .iphone-photo2 {
+      max-width: 420px;
+      min-height: 842px; } }
