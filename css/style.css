@@ -149,7 +149,7 @@ a:link {
     height: 400px;
     margin-top: 35px;
     background: url(/images/section1-iphones.png) no-repeat center 0;
-    background-size: auto 400px; }
+    background-size: 1160px auto; }
 
 #section2 {
   min-height: 750px; }
