@@ -20,7 +20,7 @@ a:link {
     text-align: right; }
   .terms-container hr {
     border: 0;
-    border-bottom: 1px solid #ccc; }
+    border-bottom: 1px solid #ddd; }
   .terms-container li {
     margin-bottom: 1em; }
 
@@ -57,6 +57,13 @@ a:link {
   overflow: hidden;
   min-height: 60px;
   background-color: #20232b; }
+  .footer .copyright {
+    color: #555;
+    text-align: center;
+    font-size: 13px;
+    line-height: 2em;
+    padding: 0;
+    margin-bottom: 1em; }
   .footer .links {
     text-align: center;
     font-size: 13px; }
@@ -66,17 +73,16 @@ a:link {
       color: #666; }
     .footer .links a.terms-link:hover {
       color: white; }
-  .footer hr {
-    width: 96%;
-    border: 0;
-    border-bottom: 1px solid #333; }
-  .footer .copyright {
-    color: #555;
-    text-align: center;
-    font-size: 13px;
-    line-height: 2em;
-    padding: 0;
-    margin-bottom: 1em; }
+  .footer.light {
+    background-color: #f2ebe4; }
+    .footer.light .copyright {
+      color: #999; }
+    .footer.light .links {
+      color: #ccc; }
+      .footer.light .links a.terms-link:link, .footer.light .links a.terms-link:visited {
+        color: #666; }
+      .footer.light .links a.terms-link:hover {
+        color: #333; }
 
 .section {
   width: 100%;
@@ -96,16 +102,6 @@ a:link {
     width: 100%;
     max-width: 960px;
     margin: 0px auto; }
-
-.fp-table {
-  display: table;
-  table-layout: fixed;
-  width: 100%; }
-  .fp-table .fp-table-cell {
-    display: table-cell;
-    vertical-align: middle;
-    width: 100%;
-    height: 100%; }
 
 #section0 {
   position: relative;
@@ -278,15 +274,21 @@ a:link {
 #section5 {
   background-color: #20232b;
   height: auto;
-  text-align: center;
-  padding: 70px 0 50px 0; }
+  text-align: center; }
+  #section5 p.description {
+    color: #c7984a;
+    margin-top: 60px; }
   #section5 .app-icon {
     width: 42px;
     margin-right: 10px; }
-  #section5 p.description {
-    color: #c7984a; }
   #section5 .download-appstore > img {
     width: 138px; }
+  #section5 .clearfix {
+    margin-bottom: 60px; }
+  #section5 hr {
+    width: 96%;
+    border: 0;
+    border-bottom: 1px solid #333; }
 
 .iphone-photo {
   background: url(/images/iphone-golden.png) no-repeat center;
