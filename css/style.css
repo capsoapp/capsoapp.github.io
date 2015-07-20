@@ -153,9 +153,13 @@ a:link {
 
 #section2 {
   min-height: 750px; }
+  #section2 .iphone-photo {
+    background: url(/images/iphone-golden-01.png) no-repeat center; }
 
 #section3 {
   min-height: 700px; }
+  #section3 .iphone-photo {
+    background: url(/images/iphone-golden-02.png) no-repeat center; }
 
 #section2, #section3 {
   background-color: #2a2e3a;
@@ -180,17 +184,21 @@ a:link {
     border: 0;
     border-bottom: 1px solid #df5343; }
   #section2 .iphone-photo, #section3 .iphone-photo {
-    background: url(/images/iphone-golden.png) no-repeat center;
     width: 100%;
-    height: 604px;
+    height: 603px;
     background-size: auto 100%; }
   #section2 .video, #section3 .video {
+    background: none;
+    display: none;
     position: absolute;
     left: 50%;
     top: 78px;
     margin-left: -130px;
     width: 260px;
-    height: 446px; }
+    height: 445px; }
+    @media (min-width: 768px) {
+      #section2 .video, #section3 .video {
+        display: block; } }
   #section2 .row.info, #section3 .row.info {
     max-width: 930px;
     margin: auto;
