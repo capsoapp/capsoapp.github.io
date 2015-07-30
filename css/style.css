@@ -1,19 +1,19 @@
 @import url(/css/bootstrap.min.css);
 @import url(http://fonts.googleapis.com/css?family=Roboto+Slab:400,700);
 body {
-  padding: 0;
-  margin: 0;
   font: 14px "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
   background-color: #f2ebe4; }
 
-a:link {
+a:link, a:visited {
   color: #df5343;
   text-decoration: none; }
 
 .terms-container {
   color: #333;
   line-height: 1.5em; }
-  .terms-container p {
+  .terms-container h2 {
+    font-size: 20px; }
+  .terms-container p.content {
     text-indent: 1em; }
   .terms-container p.updated {
     color: #c7984a;
@@ -23,6 +23,8 @@ a:link {
     border-bottom: 1px solid #ddd; }
   .terms-container li {
     margin-bottom: 1em; }
+  .terms-container .link {
+    word-break: break-all; }
 
 #page {
   margin: 0;
