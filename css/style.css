@@ -298,6 +298,32 @@ a:link, a:visited {
   background-color: #20232b;
   height: auto;
   text-align: center; }
+  #section5 .email-subscription {
+    margin-bottom: -40px; }
+  #section5 .thank-you {
+    position: relative;
+    width: 100%;
+    top: -40px;
+    color: white;
+    font-size: 30px;
+    visibility: hidden; }
+  #section5 #inputEmail {
+    background-color: #4C4A49;
+    border-color: #c7984a;
+    color: white;
+    text-align: center; }
+  #section5 button.submit-btn {
+    margin-left: 5px;
+    margin-right: 5px;
+    background: none;
+    border-color: #ddd;
+    color: #ddd;
+    outline: 0; }
+    #section5 button.submit-btn:hover {
+      background-color: #4C4A49; }
+  #section5 p.email-subscription-description {
+    color: #999;
+    margin-top: 50px; }
   #section5 p.description {
     color: #c7984a;
     margin-top: 60px; }
@@ -312,3 +338,46 @@ a:link, a:visited {
     width: 96%;
     border: 0;
     border-bottom: 1px solid #333; }
+
+.animated {
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  -webkit-transition: 1s ease-in-out;
+  -moz-transition: 1s ease-in-out;
+  -o-transition: 1s ease-in-out;
+  transition: 1s ease-in-out; }
+
+@-webkit-keyframes fadeOut {
+  0% {
+    opacity: 1; }
+  100% {
+    opacity: 0; } }
+@keyframes fadeOut {
+  0% {
+    opacity: 1; }
+  100% {
+    opacity: 0; } }
+.fadeOut {
+  -webkit-animation-name: fadeOut;
+  animation-name: fadeOut; }
+
+@-webkit-keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(20px); }
+  100% {
+    opacity: 1;
+    -webkit-transform: translateY(0); } }
+@keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    transform: translateY(20px); }
+  100% {
+    opacity: 1;
+    transform: translateY(0); } }
+.fadeInUp {
+  visibility: visible !important;
+  -webkit-animation-name: fadeInUp;
+  animation-name: fadeInUp; }
